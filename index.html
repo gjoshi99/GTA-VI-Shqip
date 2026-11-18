@@ -2,114 +2,249 @@
 <!DOCTYPE html>
 <html lang="sq">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#090b10">
-  <meta name="description" content="GTA VI Shqip — enciklopedia dhe udhëzuesi në gjuhën shqipe për Grand Theft Auto VI.">
-  <title>GTA VI Shqip — Enciklopedia</title>
-  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#090b10">
+
+    <!-- SEO: Google Search -->
+    <title>GTA VI Shqip – Enciklopedia, Harta, Personazhet dhe Udhëzuesit</title>
+
+    <meta
+        name="description"
+        content="GTA VI Shqip është enciklopedia dhe udhëzuesi për Grand Theft Auto VI në gjuhën shqipe. Zbulo personazhet, hartën e Leonida, Vice City, automjetet, misionet, cheat codes dhe lajmet."
+    >
+
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="googlebot" content="index, follow">
+    <meta name="language" content="Albanian">
+
+    <link
+        rel="canonical"
+        href="https://gjoshi99.github.io/GTA-VI-Shqip/"
+    >
+
+    <!-- Open Graph: Facebook, WhatsApp and other social platforms -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="sq_AL">
+    <meta property="og:site_name" content="GTA VI Shqip">
+    <meta
+        property="og:title"
+        content="GTA VI Shqip – Enciklopedia dhe Udhëzuesi"
+    >
+    <meta
+        property="og:description"
+        content="Gjithçka rreth GTA VI në gjuhën shqipe: personazhet, lokacionet, automjetet, misionet, cheat codes dhe lajmet."
+    >
+    <meta
+        property="og:url"
+        content="https://gjoshi99.github.io/GTA-VI-Shqip/"
+    >
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary">
+    <meta
+        name="twitter:title"
+        content="GTA VI Shqip – Enciklopedia"
+    >
+    <meta
+        name="twitter:description"
+        content="Eksploro botën e GTA VI. Personazhet, harta, automjetet dhe udhëzuesit në gjuhën shqipe."
+    >
+
+    <!-- Structured data: Google -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "GTA VI Shqip",
+        "alternateName": "GTA 6 Shqip",
+        "url": "https://gjoshi99.github.io/GTA-VI-Shqip/",
+        "description": "Enciklopedi dhe udhëzues jozyrtar për Grand Theft Auto VI në gjuhën shqipe.",
+        "inLanguage": "sq"
+    }
+    </script>
+
+    <!-- Existing favicon -->
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+
+    <!-- Existing fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Existing CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-  <div class="app-shell">
-    <aside class="sidebar" id="sidebar">
-      <a class="brand" href="#home">
-        <span class="brand-mark">VI</span>
-        <span class="brand-copy">
-          <strong>GTA VI</strong>
-          <small>SHQIP</small>
-        </span>
-      </a>
+    <div class="app-shell">
 
-      <div class="sidebar-scroll">
-        <p class="nav-label">MENUJA KRYESORE</p>
-        <nav class="main-nav" aria-label="Navigimi kryesor">
-          <a class="nav-link active" href="#home" data-page="home">
-            <span class="nav-icon">⌂</span><span>Kryefaqja</span>
-          </a>
-          <a class="nav-link" href="#cheats" data-page="cheats">
-            <span class="nav-icon">⌘</span><span>Cheat codes</span>
-          </a>
+        <aside class="sidebar" id="sidebar">
 
-          <p class="nav-label nav-label-spaced">BOTA E GTA VI</p>
-          <a class="nav-link" href="#characters" data-page="characters">
-            <span class="nav-icon">♙</span><span>Personazhet</span>
-          </a>
-          <a class="nav-link" href="#locations" data-page="locations">
-            <span class="nav-icon">⌖</span><span>Lokacionet</span>
-          </a>
-          <a class="nav-link" href="#vehicles" data-page="vehicles">
-            <span class="nav-icon">▰</span><span>Automjetet</span>
-          </a>
-          <a class="nav-link" href="#missions" data-page="missions">
-            <span class="nav-icon">◈</span><span>Misionet</span>
-          </a>
-          <a class="nav-link" href="#activities" data-page="activities">
-            <span class="nav-icon">◎</span><span>Aktivitetet</span>
-          </a>
-          <a class="nav-link" href="#gameplay" data-page="gameplay">
-            <span class="nav-icon">◉</span><span>Gameplay</span>
-          </a>
+            <a class="brand" href="#home">
+                <span class="brand-mark">VI</span>
 
-          <p class="nav-label nav-label-spaced">INFORMACIONE</p>
-          <a class="nav-link" href="#news" data-page="news">
-            <span class="nav-icon">▤</span><span>Lajmet</span>
-          </a>
-          <a class="nav-link" href="#faq" data-page="faq">
-            <span class="nav-icon">?</span><span>Pyetje të shpeshta</span>
-          </a>
-          <a class="nav-link" href="#sources" data-page="sources">
-            <span class="nav-icon">↗</span><span>Burimet</span>
-          </a>
-        </nav>
-      </div>
+                <span class="brand-copy">
+                    <strong>GTA VI</strong>
+                    <small>SHQIP</small>
+                </span>
+            </a>
 
-      <div class="sidebar-bottom">
-        <span class="status-dot"></span>
-        <div><strong>GTA VI Shqip</strong><small>Projekt jozyrtar</small></div>
-      </div>
-    </aside>
+            <div class="sidebar-scroll">
 
-    <div class="sidebar-backdrop" id="sidebar-backdrop"></div>
+                <p class="nav-label">MENUJA KRYESORE</p>
 
-    <main class="main-content">
-      <header class="topbar">
-        <button class="menu-toggle" id="menu-toggle" aria-label="Hap menynë">☰</button>
-        <div class="breadcrumb">
-          <span>GTA VI SHQIP</span>
-          <span class="breadcrumb-separator">/</span>
-          <strong id="breadcrumb-current">Kryefaqja</strong>
-        </div>
-        <div class="topbar-right">
-          <span class="topbar-status"><span class="status-dot"></span> Udhëzues në shqip</span>
-        </div>
-      </header>
+                <nav class="main-nav" aria-label="Navigimi kryesor">
 
-      <section class="global-search-wrap">
-        <div class="global-search">
-          <span class="search-icon">⌕</span>
-          <input id="global-search" type="search" placeholder="Kërko personazhe, lokacione, automjete, udhëzues..." autocomplete="off">
-          <kbd> / </kbd>
-          <div class="search-results" id="search-results" hidden></div>
-        </div>
-      </section>
+                    <a class="nav-link active" href="#home" data-page="home">
+                        <span class="nav-icon">⌂</span>
+                        <span>Kryefaqja</span>
+                    </a>
 
-      <div id="app-view" class="app-view" aria-live="polite">
-        <div class="loading-state">Duke ngarkuar përmbajtjen...</div>
-      </div>
+                    <a class="nav-link" href="#cheats" data-page="cheats">
+                        <span class="nav-icon">⌘</span>
+                        <span>Cheat codes</span>
+                    </a>
 
-      <footer class="site-footer">
-        <div><strong>GTA VI SHQIP</strong><span>Enciklopedi dhe udhëzues jozyrtar</span></div>
-        <div><span>Grand Theft Auto VI është pronë e Rockstar Games.</span><span>Ky projekt nuk është i lidhur me Rockstar Games.</span></div>
-      </footer>
-    </main>
-  </div>
+                    <p class="nav-label nav-label-spaced">BOTA E GTA VI</p>
 
-  <script src="js/data.js"></script>
-  <script src="js/navigation.js"></script>
-  <script src="js/app.js"></script>
+                    <a class="nav-link" href="#characters" data-page="characters">
+                        <span class="nav-icon">♙</span>
+                        <span>Personazhet</span>
+                    </a>
+
+                    <a class="nav-link" href="#locations" data-page="locations">
+                        <span class="nav-icon">⌖</span>
+                        <span>Lokacionet</span>
+                    </a>
+
+                    <a class="nav-link" href="#vehicles" data-page="vehicles">
+                        <span class="nav-icon">▰</span>
+                        <span>Automjetet</span>
+                    </a>
+
+                    <a class="nav-link" href="#missions" data-page="missions">
+                        <span class="nav-icon">◈</span>
+                        <span>Misionet</span>
+                    </a>
+
+                    <a class="nav-link" href="#activities" data-page="activities">
+                        <span class="nav-icon">◎</span>
+                        <span>Aktivitetet</span>
+                    </a>
+
+                    <a class="nav-link" href="#gameplay" data-page="gameplay">
+                        <span class="nav-icon">◉</span>
+                        <span>Gameplay</span>
+                    </a>
+
+                    <p class="nav-label nav-label-spaced">INFORMACIONE</p>
+
+                    <a class="nav-link" href="#news" data-page="news">
+                        <span class="nav-icon">▤</span>
+                        <span>Lajmet</span>
+                    </a>
+
+                    <a class="nav-link" href="#faq" data-page="faq">
+                        <span class="nav-icon">?</span>
+                        <span>Pyetje të shpeshta</span>
+                    </a>
+
+                    <a class="nav-link" href="#sources" data-page="sources">
+                        <span class="nav-icon">↗</span>
+                        <span>Burimet</span>
+                    </a>
+
+                </nav>
+            </div>
+
+            <div class="sidebar-bottom">
+                <span class="status-dot"></span>
+
+                <div>
+                    <strong>GTA VI Shqip</strong>
+                    <small>Projekt jozyrtar</small>
+                </div>
+            </div>
+
+        </aside>
+
+        <div class="sidebar-backdrop" id="sidebar-backdrop"></div>
+
+        <main class="main-content">
+
+            <header class="topbar">
+
+                <button class="menu-toggle" id="menu-toggle" aria-label="Hap menynë">
+                    ☰
+                </button>
+
+                <div class="breadcrumb">
+                    <span>GTA VI SHQIP</span>
+                    <span class="breadcrumb-separator">/</span>
+                    <strong id="breadcrumb-current">Kryefaqja</strong>
+                </div>
+
+                <div class="topbar-right">
+                    <span class="topbar-status">
+                        <span class="status-dot"></span>
+                        Udhëzues në shqip
+                    </span>
+                </div>
+
+            </header>
+
+            <section class="global-search-wrap">
+
+                <div class="global-search">
+                    <span class="search-icon">⌕</span>
+
+                    <input
+                        id="global-search"
+                        type="search"
+                        placeholder="Kërko personazhe, lokacione, automjete, udhëzues..."
+                        autocomplete="off"
+                    >
+
+                    <kbd> / </kbd>
+
+                    <div class="search-results" id="search-results" hidden></div>
+                </div>
+
+            </section>
+
+            <div id="app-view" class="app-view" aria-live="polite">
+                <div class="loading-state">
+                    Duke ngarkuar përmbajtjen...
+                </div>
+            </div>
+
+            <footer class="site-footer">
+
+                <div>
+                    <strong>GTA VI SHQIP</strong>
+                    <span>Enciklopedi dhe udhëzues jozyrtar</span>
+                </div>
+
+                <div>
+                    <span>Grand Theft Auto VI është pronë e Rockstar Games.</span>
+                    <span>Ky projekt nuk është i lidhur me Rockstar Games.</span>
+                </div>
+
+            </footer>
+
+        </main>
+
+    </div>
+
+    <!-- Existing JavaScript: unchanged -->
+    <script src="js/data.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/app.js"></script>
+
 </body>
 </html>
